@@ -25,16 +25,13 @@ TravelMind treats trip planning as a multi-agent reasoning problem:
 | **Local Insider Agent** | Current events, advisories, entry requirements | Live web search (DuckDuckGo) |
 | **Itinerary Planner Agent** | Synthesizes everything into a paced day-by-day plan | Reads shared context from all other agents |
 
+## 3. Step By Step: SetUp
 ```bash
 # Backend
 cd backend
-python -m venv venv && source venv/bin/activate   # Windows: .\venv\Scripts\Activate.ps1
-pip install -r requirements.txt
-cp .env.example .env      # add your free Groq or Gemini key
-uvicorn app.main:app --reload --port 8000
 
-# Frontend (second terminal)
+# Frontend 
 cd frontend
 npm install
 npm run dev
-```
+
