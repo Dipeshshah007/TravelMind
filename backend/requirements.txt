@@ -1,0 +1,13 @@
+# Pinned to versions with prebuilt wheels for Python 3.10-3.13 on Windows/macOS/Linux
+# (avoids pip falling back to a Rust source build, which needs a Rust toolchain).
+fastapi==0.115.6
+uvicorn==0.32.1
+pydantic==2.10.3
+pydantic-settings==2.7.0
+python-dotenv==1.0.1
+httpx==0.28.1
+groq==0.13.1
+google-generativeai==0.8.3
+ddgs==9.0.0
+sse-starlette==2.1.3
+tenacity==9.0.0
